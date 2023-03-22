@@ -1,14 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Cards() {
+function Cards(props) {
   return (
     <>
     <Card style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Ali Jone</Card.Title>
+        <Card.Title>{props?.name}</Card.Title>
         <Card.Text>
-          Bonjour, je m'apelle Ali Jone, je sui entidiant de france!
+          {props?.text}
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
         <Button variant="primary">Go Anywhere</Button>
