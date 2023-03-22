@@ -6,7 +6,7 @@ function App() {
   return (
     
     <div className="App">
-      <Card name={"Ali Jone"} text={"Bonjour, je m'apelle Ali Jone, je sui entidiant de france!"}/>
+      <Card name={"Ali Jone"} text={"Bonjour, je m'apelle Ali Jone, je sui entidiant de france!"} img={"logo192.png"}/>
     </div>
   );
 }
